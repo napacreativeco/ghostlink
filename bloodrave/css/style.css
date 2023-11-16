@@ -144,3 +144,7 @@ footer {
   object-position: center;
   display: block;
 }
+
+.bio p {
+  color: #ffffff;
+}
