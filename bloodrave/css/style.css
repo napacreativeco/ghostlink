@@ -137,6 +137,7 @@ footer {
   border-radius: 50%;
   width: 180px;
   height: 180px;
+  animation: fadient 12s linear infinite;
 }
 .profile-image img {
   min-width: 100%;
@@ -146,6 +147,11 @@ footer {
   display: block;
 }
 
+@keyframes fadient {
+  0% { box-shadow: -6px 0 12px 12px rgba(248, 21, 248, 0.01), -3px 0 20px 20px rgba(23, 255, 255, 0.02); }
+  50% { box-shadow: 3px 0 20px 20px rgba(23, 255, 255, 0.02), 6px 0 12px 12px rgba(248, 21, 248, 0.04); }
+  100% { box-shadow: -6px 0 12px 12px rgba(248, 21, 248, 0.03), -3px 0 20px 20px rgba(23, 255, 255, 0.01); }
+}
 .bio {
   margin: 0 0 30px 0;
 }
