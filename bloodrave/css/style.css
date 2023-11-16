@@ -40,9 +40,9 @@ li {
     width: 100%;
     max-width: 600px;
     display: block;
-    
     border-radius: 50px;
     border: 2px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
 .links a {
@@ -53,6 +53,10 @@ li {
     width: 100%;
     color: #ffffff;
     text-decoration: none;
+}
+
+li:hover {
+  border: 2px solid rgba(255, 255, 255, 0.6);
 }
 
 .wrapper {
