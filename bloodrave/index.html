@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>&nbsp; ghostl.ink</title>
+  
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#1B1B1B">
+  
+  <script type="text/javascript">
+
+    var titleText = document.title;
+    
+    function titleMarquee() {
+    
+     titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
+     document.title = titleText;
+     setTimeout("titleMarquee()", 450);
+     }
+    
+  </script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;800&display=swap" rel="stylesheet">
+  
+</head>
+
+<body onload="titleMarquee()">
+
+    <div class="wrapper">
+        
+        <header>
+            <div class="profile-image" style="background: url('./avatar/lawn-edite.png'); background-size: cover; background-position: center center;">
+            </div>
+            <h1>Blood Rave</h1>
+        </header>
+        
+        <div class="links">
+          <ul>
+              <li>
+                  <a href="https://open.spotify.com/artist/4beB8JGjQTVp5g6B4h5rls?si=adW78KRbRZSO0dLrnSMMCw" title="Blood Rave on Spotify">Spotify</a>
+              </li>
+              <li>
+                  <a href="https://bloodrave.bandcamp.com" title="Blood Rave on Bandcamp">Bandcamp</a>
+              </li>
+              <li>
+                  <a href="#" title="Blood Rave on YouTube Music">YouTube</a>
+              </li>
+        
+              <li>
+                  <a href="#" title="Blood Rave on Apple Music">Apple Music</a>
+              </li>
+          </ul>
+        </div>
+
+        <footer>
+            copyright &copy; 2023 ghostl.ink
+        </footer>
+    
+    </div>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

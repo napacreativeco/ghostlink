@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;800&display=swap');
+
+body {
+  /*background: #1b1b1b;*/
+  color: #ffffff;
+  font-family: 'Gabarito', sans-serif;
+  overflow: hidden;
+  background: linear-gradient(-45deg, #1b1b1b, #0a0a0a, #1a1a1a, #000000);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+iframe {
+    width: 90% !important;
+    max-width: 600px !important;
+    margin: 0 auto !important;
+}
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100svh;
+}
+
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mc_embed_signup_scroll {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="email"] {
+  background: transparent;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #2e2e2e;
+  border-left: 0;
+  outline: 0;
+  margin: 0 auto;
+  padding: 10px !important;
+  border-radius: 25px !important;
+  color: #ffffff !important;
+}
+
+input[type="submit"] {
+  color: #ffffff !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 10px 0 0 0 !important;
+  text-align: center !important;
+  font-size: 15px !important;
+  font-family: 'Gabarito', sans-serif !important;
+}
+
+.helper_text {
+  background: transparent !important;
+  color: #ffffff !important;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 64px;
+  margin: 0;
+}
+
+footer {
+  padding-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  opacity: 0.1;
+}
